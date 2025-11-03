@@ -23,9 +23,9 @@ export default function Home() {
           />
         </div>
         
-        <h1>Desarrollo Front End — TP2 SPA React</h1>
+        <h1>Desarrollo Front End — TP3 SPA React</h1>
         <p style={{fontFamily:'var(--font-alt)'}}>
-          Proyecto migrado desde TP1. Equipo: <b>Neuyin</b> & <b>Erick</b>. De cinéfilos, para cinéfilos. 
+          Proyecto migrado desde TP2. Equipo: <b>Neuyin</b> & <b>Erick</b>. De cinéfilos, para cinéfilos. 
         </p>
       </div>
 
@@ -87,12 +87,13 @@ export default function Home() {
       <div className="card">
         <h2>🎯 Objetivos</h2>
         <ul>
-          <li>Migrar HTML/CSS/JS a componentes React reutilizables.</li>
-          <li>Agregar sección con datos desde JSON local (20 objetos).</li>
-          <li>Consumir una API pública y renderizar resultados.</li>
-          <li>
-            Publicar en Vercel con README y bitácora actualizados.
-          </li>
+          <li>.</li>
+          <li>.</li>
+          <li>.</li>
+           <li>.</li>
+          <li>.</li>
+          <li>.</li>
+          <li>Publicar en Vercel con README y bitácora actualizados.</li>
         </ul>
       </div>
     </section>
