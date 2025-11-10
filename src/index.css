@@ -649,3 +649,18 @@ body.modo-oscuro .site-footer {
   height: auto; 
   border-radius: 10px; 
 }
+
+/*Mejora 1 animación entre paginas*/
+.page {
+  opacity: 0;
+  transform: translateY(8px);
+  animation: fadePage 0.7s ease forwards;
+}
+
+@keyframes fadePage {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

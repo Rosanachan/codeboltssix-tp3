@@ -2,7 +2,7 @@ export default function Bitacora() {
   return (
     <section className="bitacora">
       {/* ENCABEZADO */}
-      <div className="card">
+      <div className="card, page">
         <h2>🗒️ Bitácora del Proyecto</h2>
         <p>
           Esta sección contiene una descripción del proceso de desarrollo del proyecto, incluyendo decisiones de diseño, dificultades encontradas y cambios importantes
@@ -189,7 +189,7 @@ export default function Bitacora() {
       <div className="card" style={{ marginTop: "1rem" }}>
         <h4 style={{ marginTop: "1rem" }}>🧠 Decisiones de Diseño</h4>
         <p>
-          Se optó por un modo claro retro ochentoso con tipografía geométrica, tonos pastel y detalles VHS. El modo oscuro tipo sala de proyección utiliza degradados profundos, reflejos tenues y transiciones que evocan la iluminación de un cine. Se <b>rediseñó</b> la barra lateral y los componentes visuales para reforzar la temática <b>cinéfila.</b> La paleta de colores combina lilas, magentas y tonos oscuros con reflejos de neón suave.
+          Se optó por agregar detalles visuales en modo modo oscuro tipo sala de proyección, reflejos tenues y transiciones que evocan la iluminación de un cine. Se <b>rediseñó</b> la barra lateral y los componentes visuales para reforzar la temática <b>cinéfila.</b> La paleta de colores combina lilas, magentas y tonos oscuros con reflejos de neón suave.
         </p>
 
         <h4 style={{ marginTop: "1rem" }}>⚙️ Dificultades Encontradas</h4>

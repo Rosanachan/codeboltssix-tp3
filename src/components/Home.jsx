@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <section className="home">
-      <div className="card cardmain">
+      <div className="card cardmain, page">
         <div className="logo-home-container">
           <img
             src={isDarkMode ? "/images/logooscuro.png" : "/images/logo.png"}
