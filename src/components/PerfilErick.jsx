@@ -8,7 +8,7 @@ export default function PerfilErick() {
         <div className="hero-content">
           <img
             src="/images/erick.png"
-            alt="Neuyin"
+            alt="Erick"
             className="foto-perfil"
           />
           <h1 className="titulo-neuyin">Buenas, soy Erick Romero 👾</h1>
@@ -131,6 +131,12 @@ directed by: Hayao Miyazaki – Esta película de animación japonesa es una obr
           ></iframe>
         </div>
       </section>
+
+      <div className="social-icons">
+        <a href="#" aria-label="LinkedIn"><i className="fab fa-linkedin-in"></i></a>
+        <a href="#" aria-label="GitHub"><i className="fab fa-github"></i></a>
+        <a href="#" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
+      </div>
     </section>
   );
 }
