@@ -53,39 +53,39 @@ Además, incorporamos el consumo de una API pública donde conocerás las pelíc
 Antes navegar entre las páginas se sentía rígido y estático:
 ![Captura Mejora1](./public/assets/capturas/captura1.png)
 
-Después logramos una paginación más suave y dinámica al navegar por el sitio:
+Ahora logramos una paginación más suave y dinámica al navegar por el sitio:
 ![Captura Mejora1](./public/assets/capturas/captura2.png)
 
 ### Captura de pantalla de la mejora 2: Búsqueda/Filtrado en JSON Local
 
-Antes y después se ha podido filtrar la búsqueda en nuestro JSON local
+Antes y ahora se ha podido filtrar la búsqueda en nuestro JSON local:
 ![Captura Mejora2](./public/assets/capturas/captura3.png)
 
 ### Captura de pantalla de la mejora 3: Galería de Imágenes Interactiva
 
-Antes
+Antes solo había una pequeña animación en las imágenes:
 ![Captura Mejora 3](./public/assets/capturas/captura4.png)
 
-Después
+Ahora podés abrir las imágenes, navegar entre ellas y cerrar esa ventana con la tecla ESC o con el botón X:
 ![Captura Mejora 3](./public/assets/capturas/captura5.png)
 
 ### Captura de pantalla de la mejora 4: Barras de Progreso de Habilidades
 
-Antes
+Antes solo aparecían las habilidades:
 ![Captura Mejora 4](./public/assets/capturas/captura6.png)
 
-Después
+Ahora aparecen las habilidades con una barra de progreso:
 ![Captura Mejora 4](./public/assets/capturas/captura7.png)
 
 ### Captura de pantalla de la mejora 5: Botones de Redes Sociales animados
 
-Antes
+Antes no existían los botones de redes sociales:
 ![Captura Mejora 5](./public/assets/capturas/captura8.png)
 
-Después
+Ahora aparecen botones de redes sociales animados:
 ![Captura Mejora 5](./public/assets/capturas/captura9.png)
 
-### Captura de pantalla de la mejora 6: Carrusel de Proyectos Destacados
+### Captura de pantalla de la mejora 6: Carousel de Proyectos Destacados
 
 Antes no existía el carousel, ahora lo implementamos incluyendo un componente más:
 ![Captura Mejora 6](./public/assets/capturas/captura10.png)

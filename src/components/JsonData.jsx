@@ -1,8 +1,10 @@
 import data from "../data/items.json";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function JsonData() {
   const [filtro, setFiltro] = useState("all");
+  const [lightboxIndex, setLightboxIndex] = useState(null);
+  const [zoom, setZoom] = useState(false);
 
   const categorias = ["all", "Oscar", "Cannes", "BAFTA", "Globo de Oro"];
 
@@ -12,6 +14,25 @@ export default function JsonData() {
       : data.filter((peli) =>
           peli.premio.toLowerCase().includes(filtro.toLowerCase())
         );
+
+  const openLightbox = (index) => setLightboxIndex(index);
+  const closeLightbox = () => {
+    setLightboxIndex(null);
+    setZoom(false);
+  };
+
+  const nextImage = () =>
+    setLightboxIndex((prev) => (prev + 1) % filtradas.length);
+
+  const prevImage = () =>
+    setLightboxIndex((prev) => (prev - 1 + filtradas.length) % filtradas.length);
+
+  // Cerrar con ESC
+  useEffect(() => {
+    const handleEsc = (e) => e.key === "Escape" && closeLightbox();
+    window.addEventListener("keydown", handleEsc);
+    return () => window.removeEventListener("keydown", handleEsc);
+  }, []);
 
   return (
     <section>
@@ -46,6 +67,7 @@ export default function JsonData() {
         </label>
       </div>
 
+      {/* === GALERÍA === */}
       <div
         className="galeria"
         style={{
@@ -55,14 +77,16 @@ export default function JsonData() {
           marginTop: "1.5rem"
         }}
       >
-        {filtradas.map((peli) => (
+        {filtradas.map((peli, index) => (
           <div
             className="card"
             key={peli.id}
             style={{
               textAlign: "center",
-              transition: "transform 0.25s ease, box-shadow 0.25s ease"
+              transition: "transform 0.25s ease, box-shadow 0.25s ease",
+              cursor: "pointer"
             }}
+            onClick={() => openLightbox(index)}
           >
             <img
               src={peli.poster}
@@ -91,6 +115,92 @@ export default function JsonData() {
           </div>
         ))}
       </div>
+
+      {/* === LIGHTBOX === */}
+      {lightboxIndex !== null && (
+        <div
+          className="lightbox"
+          onClick={closeLightbox}
+          style={{
+            position: "fixed",
+            inset: 0,
+            background: "rgba(0,0,0,0.9)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            zIndex: 1000
+          }}
+        >
+          <button
+            onClick={closeLightbox}
+            style={{
+              position: "absolute",
+              top: "20px",
+              right: "30px",
+              background: "none",
+              color: "#fff",
+              border: "none",
+              fontSize: "2rem",
+              cursor: "pointer"
+            }}
+          >
+            ✖
+          </button>
+
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              prevImage();
+            }}
+            style={{
+              position: "absolute",
+              left: "40px",
+              color: "#fff",
+              background: "none",
+              border: "none",
+              fontSize: "2rem",
+              cursor: "pointer"
+            }}
+          >
+            ❮
+          </button>
+
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              nextImage();
+            }}
+            style={{
+              position: "absolute",
+              right: "40px",
+              color: "#fff",
+              background: "none",
+              border: "none",
+              fontSize: "2rem",
+              cursor: "pointer"
+            }}
+          >
+            ❯
+          </button>
+
+          <img
+            src={filtradas[lightboxIndex].poster}
+            alt={filtradas[lightboxIndex].titulo}
+            onClick={(e) => {
+              e.stopPropagation();
+              setZoom(!zoom);
+            }}
+            style={{
+              maxWidth: zoom ? "90%" : "70%",
+              maxHeight: zoom ? "90%" : "70%",
+              objectFit: "contain",
+              borderRadius: "var(--radius)",
+              transition: "transform 0.3s ease",
+              cursor: zoom ? "zoom-out" : "zoom-in"
+            }}
+          />
+        </div>
+      )}
     </section>
   );
 }
