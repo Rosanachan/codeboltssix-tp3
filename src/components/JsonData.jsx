@@ -15,7 +15,7 @@ export default function JsonData() {
 
   return (
     <section>
-      <div className="card, page" style={{ textAlign: "center" }}>
+      <div className="card page" style={{ textAlign: "center" }}>
         <h2>🎬 Películas premiadas</h2>
         <p>
           Explorá una selección de películas ganadoras en distintos festivales

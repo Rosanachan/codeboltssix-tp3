@@ -2,12 +2,10 @@ export default function Bitacora() {
   return (
     <section className="bitacora">
       {/* ENCABEZADO */}
-      <div className="card, page">
+      <div className="card page">
         <h2>🗒️ Bitácora del Proyecto</h2>
         <p>
-          Esta sección contiene una descripción del proceso de desarrollo del proyecto, incluyendo decisiones de diseño, dificultades encontradas y cambios importantes
-          realizados durante la implementación. La bitácora comenzó en el TP1, se amplía y migra a React en el TP2 y finalmente incorpora mejoras dinámicas y visuales adaptadas a la temática cinéfila, registrando la evolución del trabajo
-          ahora realizado por <b>Neuyin</b> y <b>Erick</b>.
+          Esta sección contiene una descripción del proceso de desarrollo del proyecto, incluyendo decisiones de diseño, dificultades encontradas y cambios importantes realizados durante la implementación. La bitácora comenzó con Codeboltssix en el TP1, se amplía y migra a React en el TP2 y finalmente incorpora rebranding, mejoras dinámicas y visuales adaptadas a la temática cinéfila, registrando la evolución del trabajo MovieTop21 realizado por <b>Neuyin</b> y <b>Erick</b>.
         </p>
       </div>
 
@@ -46,8 +44,7 @@ export default function Bitacora() {
       <div className="card" style={{ marginTop: "1rem" }}>
         <h4 style={{ marginTop: "1rem" }}>🧠 Decisiones de Diseño</h4>
         <p>
-          En el TP1 se utilizó una paleta de tonos azules y grises, junto con la tipografía <b>Roboto</b> para transmitir profesionalismo y claridad. Se implementó un diseño responsive para 
-          adaptarse a móviles y tablets, manteniendo coherencia visual entre las páginas de cada integrante.
+          En el TP1 se utilizó una paleta de tonos azules y grises, junto con la tipografía <b>Roboto</b> para transmitir profesionalismo y claridad. Se implementó un diseño responsive para adaptarse a móviles y tablets, manteniendo coherencia visual entre las páginas de cada integrante.
         </p>
 
         <h4 style={{ marginTop: "1rem" }}>⚙️ Dificultades Encontradas</h4>
@@ -114,9 +111,7 @@ export default function Bitacora() {
       <div className="card" style={{ marginTop: "1rem" }}>
         <h4>🎨 Decisiones de Diseño</h4>
         <p>
-          En esta nueva etapa, se optó por un rediseño completo,
-          con una paleta pastel de tonos lavanda, violeta y rosa. El estilo general busca ser moderno,
-          limpio y agradable, con tipografía <b>Montserrat</b> para los títulos y <b>Roboto</b> para los textos.
+          En esta nueva etapa, se optó por un rediseño completo, con una paleta pastel de tonos lavanda, violeta y rosa. El estilo general busca ser moderno, limpio y agradable, con tipografía <b>Montserrat</b> para los títulos y <b>Roboto</b> para los textos.
           Se mantuvo la idea de coherencia visual, pero con más dinamismo y un enfoque “SPA”.
         </p>
 

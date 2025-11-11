@@ -13,12 +13,12 @@ export default function Home() {
   }, []);
 
   return (
-    <section className="home">
-      <div className="card cardmain, page">
+    <section className="home page">
+      <div className="card cardmain">
         <div className="logo-home-container">
           <img
             src={isDarkMode ? "/images/logooscuro.png" : "/images/logo.png"}
-            alt="Logo CodeBolts Six Evolution"
+            alt="Logo MovieTop21"
             className="logo-home-img"
           />
         </div>
@@ -38,7 +38,7 @@ export default function Home() {
           creación digital. Este proyecto forma parte de la materia{" "}
           <b>Desarrollo Web Frontend</b> y representa la evolución de nuestro
           trabajo en equipo, fusionando diseño, tecnología y creatividad bajo la
-          identidad de <b>CodeBolts Six</b>.
+          identidad de <b>MovieTop21</b>.
         </p>
         <p>
           A través de esta página buscamos reflejar nuestra afinidad por el

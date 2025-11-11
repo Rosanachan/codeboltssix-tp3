@@ -28,7 +28,7 @@ export default function PerfilNeuyin() {
 
 
   return (
-    <section className="perfil-neuyin">
+    <section className="perfil-neuyin page">
       {/* ENCABEZADO */}
       <header id="mainheader" className="hero">
         <div className="hero-content">

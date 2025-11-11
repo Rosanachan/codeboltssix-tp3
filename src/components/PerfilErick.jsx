@@ -27,7 +27,7 @@ export default function PerfilErick() {
   ];
 
   return (
-    <section className="perfil-erick">
+    <section className="perfil-erick page">
       {/* Encabezado */}
       <header id="mainheader" className="hero">
         <div className="hero-content">
