@@ -1,8 +1,10 @@
-# ⚡Codebolts Six
+# 🎬 MovieTop21
 
-## IFTS29 - Desarrollo Front End - TP2  
+## IFTS29 - Desarrollo Front End - TP3  
 **Grupo 21**
+
 ---
+
 ### Integrantes
 
 - 👩‍💻**Neuyin Herrera** — *(Neuyin)*  
@@ -12,19 +14,21 @@
 
 ## 🏷️ Título del Proyecto
 
-**Codebolts Six**  
+**MovieTop21**  
 En nuestro sitio web conocerás más sobre nosotros y sobre nuestros intereses cinéfilos.
 
 ---
 
 ## 📝 Descripción del proyecto
 
-**Codebolts Six** es un proyecto académico colaborativo enfocado en el desarrollo de sitios y aplicaciones web modernas. Nació como un equipo creativo dentro de la materia Desarrollo de Sistemas Web (Front End) en el IFTS N°29, con el objetivo de aplicar las tecnologías aprendidas (HTML, CSS, JavaScript y React) en proyectos reales.  
+**MovieTop21** es un proyecto académico colaborativo enfocado en el desarrollo de sitios y aplicaciones web modernas. Nació como un equipo creativo dentro de la materia Desarrollo de Sistemas Web (Front End) en el IFTS N°29, con el objetivo de aplicar las tecnologías aprendidas (HTML, CSS, JavaScript y React) en proyectos reales.  
 
 Cada perfil presenta:
 - Información personal y profesional del desarrollador.
 - Habilidades técnicas y blandas.
+- Otros proyectos realizados.
 - Películas y música favoritas.
+- Redes sociales.
 
 Además, incorporamos el consumo de una API pública donde conocerás las películas de anime más aclamadas por el público.
 
@@ -43,12 +47,19 @@ Además, incorporamos el consumo de una API pública donde conocerás las pelíc
 
 ## Estructura de archivos del proyecto
 ```bash
-Ccodeboltssix-tp2/
+Ccodeboltssix-tp3/
 │
 ├── node_modules/
 │   └── resto de archivos
 │
 ├── public/
+│   ├── assets/
+│   │   ├── capturas-erick/
+│   │   │   └── resto de imágenes
+│   │   │
+│   │   └── capturas-neuyin/
+│   │       └── resto de imágenes
+│   │
 │   ├── images/
 │   │   ├── logo.png
 │   │   ├── logooscuro.png
@@ -64,6 +75,7 @@ Ccodeboltssix-tp2/
 │   │   ├── AppLayout.jsx
 │   │   ├── Bitacora.jsx
 │   │   ├── CardIntegrante.jsx
+│   │   ├── CarruselProyectos.jsx
 │   │   ├── Footer.jsx
 │   │   ├── Home.jsx
 │   │   ├── Json.Data.jsx
@@ -85,3 +97,12 @@ Ccodeboltssix-tp2/
 ├── package.json
 ├── README.md
 └── vite.config.js
+
+---
+
+## 🧩 Capturas de pantalla
+
+- 👩‍💻**Neuyin Herrera**
+
+![Captura TP1](./public/assets/captura1.png)
+
