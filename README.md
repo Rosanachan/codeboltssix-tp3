@@ -47,9 +47,50 @@ Además, incorporamos el consumo de una API pública donde conocerás las pelíc
 
 ## 🧩 Capturas de pantalla
 
-- 👩‍💻**Neuyin Herrera**
 
-![Captura TP1](./public/assets/captura1.png)
+### Captura de pantalla de la mejora 1: Mejora de la Interfaz con animaciones suaves entre paginación
+
+Antes navegar entre las páginas se sentía rígido y estático:
+![Captura Mejora1](./public/assets/capturas/captura1.png)
+
+Después logramos una paginación más suave y dinámica al navegar por el sitio:
+![Captura Mejora1](./public/assets/capturas/captura2.png)
+
+### Captura de pantalla de la mejora 2: Búsqueda/Filtrado en JSON Local
+
+Antes y después se ha podido filtrar la búsqueda en nuestro JSON local
+![Captura Mejora2](./public/assets/capturas/captura3.png)
+
+### Captura de pantalla de la mejora 3: Galería de Imágenes Interactiva
+
+Antes
+![Captura Mejora 3](./public/assets/capturas/captura4.png)
+
+Después
+![Captura Mejora 3](./public/assets/capturas/captura5.png)
+
+### Captura de pantalla de la mejora 4: Barras de Progreso de Habilidades
+
+Antes
+![Captura Mejora 4](./public/assets/capturas/captura6.png)
+
+Después
+![Captura Mejora 4](./public/assets/capturas/captura7.png)
+
+### Captura de pantalla de la mejora 5: Botones de Redes Sociales animados
+
+Antes
+![Captura Mejora 5](./public/assets/capturas/captura8.png)
+
+Después
+![Captura Mejora 5](./public/assets/capturas/captura9.png)
+
+### Captura de pantalla de la mejora 6: Carrusel de Proyectos Destacados
+
+Antes no existía el carousel, ahora lo implementamos incluyendo un componente más:
+![Captura Mejora 6](./public/assets/capturas/captura10.png)
+
+![Captura Mejora 6](./public/assets/capturas/captura11.png)
 
 ---
 
@@ -62,11 +103,8 @@ Ccodeboltssix-tp3/
 │
 ├── public/
 │   ├── assets/
-│   │   ├── capturas-erick/
-│   │   │   └── resto de imágenes
-│   │   │
-│   │   └── capturas-neuyin/
-│   │       └── resto de imágenes
+│   │   └── capturas
+│   │      └── resto de imágenes
 │   │
 │   ├── images/
 │   │   ├── logo.png
@@ -105,5 +143,3 @@ Ccodeboltssix-tp3/
 ├── package.json
 ├── README.md
 └── vite.config.js
-
-
