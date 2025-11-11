@@ -66,7 +66,7 @@ Antes y ahora se ha podido filtrar la búsqueda en nuestro JSON local:
 Antes solo había una pequeña animación en las imágenes:
 ![Captura Mejora 3](./public/assets/capturas/captura4.png)
 
-Ahora podés abrir las imágenes, navegar entre ellas y cerrar esa ventana con la tecla ESC o con el botón X:
+Ahora podés abrir las imágenes, cuenta con lightbox con navegación y tecla ESC o el botón X para cerrar:
 ![Captura Mejora 3](./public/assets/capturas/captura5.png)
 
 ### Captura de pantalla de la mejora 4: Barras de Progreso de Habilidades
