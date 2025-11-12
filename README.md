@@ -92,6 +92,16 @@ Antes no existía el carousel, ahora lo implementamos incluyendo un componente m
 
 ![Captura Mejora 6](./public/assets/capturas/captura11.png)
 
+### Captura de pantalla de la mejora 7: Paginación de la API publica
+
+Antes, el sector de “Pelis Anime (API)” mostraba un ranking limitado a 20 ítems:
+![Captura Mejora 7](./public/assets/capturas/captura12.png)
+
+Ahora se incorporó una paginación completa con controles de navegación, salto directo a primera y última página, y un buscador para acceder a cualquier página específica:
+
+![Captura Mejora 7](./public/assets/capturas/captura13.png)
+
+![Captura Mejora 7](./public/assets/capturas/captura14.png)
 ---
 
 ## Estructura de archivos del proyecto
@@ -125,6 +135,7 @@ Ccodeboltssix-tp3/
 │   │   ├── Footer.jsx
 │   │   ├── Home.jsx
 │   │   ├── Json.Data.jsx
+│   │   ├── Pagination.jsx
 │   │   ├── PerfilErick.jsx
 │   │   ├── PerfilNeuyin.jsx
 │   │   └── Sidebar.jsx

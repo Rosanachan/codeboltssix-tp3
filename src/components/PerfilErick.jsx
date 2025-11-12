@@ -51,29 +51,60 @@ export default function PerfilErick() {
           <div className="hobbies-cards">
             <div className="glas-card">
               <img src="/images/erick_pasear.png" alt="Persona en un museo" />
-              <p>Salir a caminar mucho y conocer lugares</p>
+              <p>Salir a caminar mucho y conocer diferentes lugares.</p>
+              <div className="card-skill-bar">
+                <span
+                  className="card-skill-progress"
+                  style={{ "--progress": "70%" }}
+                ></span>
+              </div>
             </div>
             <div className="glas-card">
               <img src="/images/erick_cine.png" alt="persona dentro de un cine" />
-              <p>Ir a disfrutar de una buena peli al cine</p>
+              <p>Ir a disfrutar de una buena pelicula de estreno al cine.</p>
+              
+              <div className="card-skill-bar">
+                <span
+                  className="card-skill-progress"
+                  style={{ "--progress": "80%" }}
+                ></span>
+              </div>
             </div>
             <div className="glas-card">
               <img src="/images/erick_games.png" alt="Back to the Future" />
               <p>Disfrutar de los videojuegos junto con mi hermanito</p>
+              <div className="card-skill-bar">
+                <span
+                  className="card-skill-progress"
+                  style={{ "--progress": "85%" }}
+                ></span>
+              </div>
             </div>
             <div className="glas-card">
               <img src="/images/erick_reparar.jpg" alt="Back to the Future" />
               <p>Me doy maña para reparar todo tipo de cosas en general.</p>
+              <div className="card-skill-bar">
+                <span
+                  className="card-skill-progress"
+                  style={{ "--progress": "90%" }}
+                ></span>
+              </div>
             </div>
             <div className="glas-card">
               <img src="/images/erick_descuento.jpg" alt="Back to the Future" />
               <p>Mostrando esta foto en el cine obtenes 2x1 en peliculas 3D! valido hasta ayer.</p>
+              <div className="card-skill-bar">
+                <span
+                  className="card-skill-progress"
+                  style={{ "--progress": "95%" }}
+                ></span>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* CARRUSEL DE PROYECTOS */}
+      {/* CARRUSEL DE PROYECTOS (MEJORA 4) */}
       <CarruselProyectos
         titulo="Proyectos destacados"
         proyectos={proyectosErick}
